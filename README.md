@@ -19,9 +19,18 @@ pip3 install undetected-chromedriver
 1. 테스트에 사용할 계정은 구글 메일로 가입이 되어 있어야 함
 2. pin 설정이 되어 있어야 함
 
+## 유의 사항
+- youtube에 연동되어 있는 계정 사용시 구글 2차 인증을 개인 디바이스에서 직접해야 함, 테스트 계정을 만들어서 실행할 것을 권유
+
 ## test command
 - python3 e2e.py --email (your email) --pw (your mail password) --pin(your pin number)
 - 3개의 parameter 입력해야 테스트 가능
+
+테스트 계정이 없다면 
+
+- --email testsungho310 --pw testtest!! --pin 135790
+
+계정 사용 가능 
 
 # 테스트 시나리오
 (로그인)
