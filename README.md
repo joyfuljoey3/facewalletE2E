@@ -1,15 +1,23 @@
-# facewalletE2E
-facewallet E2E test
+# facewallet E2E Test
+facewallet E2E test를 위한 스크립트
 
-# 환경 세팅
-## 셀레니움 설치
+# 환경
 
-기타 등등
+## 테스트 환경
+- Mac OS
+- Python3
 
-pip3 install selenium-stealth
+## 사전 설치 필요한 사항들
 
-pip3 install undetected-chromedriver
+- Python 3.8 이상 설치
+- 셀레니움 설치 (크롬 드라이버 설치)
+- 아래 명령어 실행해서 python 모듈 설치 필요
+```
+$ pip3 install requests
+$ pip3 install selenium-stealth
+$ pip3 install undetected-chromedriver
 
+```
 
 
 
@@ -17,13 +25,16 @@ pip3 install undetected-chromedriver
 # 테스트 실행 방법
 ## preconditon
 1. 테스트에 사용할 계정은 구글 메일로 가입이 되어 있어야 함
-2. pin 설정이 되어 있어야 함
+2. face wallet pin 설정이 미리 되어 있어야 함
 
 ## 유의 사항
 - youtube에 연동되어 있는 계정 사용시 구글 2차 인증을 개인 디바이스에서 직접해야 함, 테스트 계정을 만들어서 실행할 것을 권유
 
-## test command
-- python3 e2e.py --email (your email) --pw (your mail password) --pin(your pin number)
+## test 실행
+- 소스 다운로드 후 아래 커맨드 형식으로 실행
+```
+python3 e2e.py --email (your email) --pw (your mail password) --pin(your pin number)
+```
 - 3개의 parameter 입력해야 테스트 가능
 
 테스트 계정이 없다면 
