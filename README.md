@@ -1,5 +1,6 @@
 # facewallet E2E Test
-facewallet E2E test를 위한 스크립트
+facewallet 데모 웹사이트를 통한 E2E test 스크립트
+데모 웹사이트: https://haechi-labs.github.io/face-sample-dapp/
 
 # 환경
 
