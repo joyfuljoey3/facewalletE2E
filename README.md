@@ -1,5 +1,6 @@
 # facewallet E2E Test
 facewallet 데모 웹사이트를 통한 E2E test 스크립트
+
 데모 웹사이트: https://haechi-labs.github.io/face-sample-dapp/
 
 # 환경
@@ -12,7 +13,7 @@ facewallet 데모 웹사이트를 통한 E2E test 스크립트
 
 - Python 3.11 이상 설치
 - 셀레니움 설치 (크롬 드라이버 설치)
-- 구글 로그인을 셀레니움으로 진행하기 위해 아래 명령어 실행해서 python 모듈 설치 필요
+- 구글 로그인을 셀레니움으로 진행하기 위해 아래 명령어 실행해서 python 모듈 설치
 ```
 $ pip3 install undetected-chromedriver
 
