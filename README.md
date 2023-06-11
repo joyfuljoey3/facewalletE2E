@@ -26,6 +26,7 @@ $ pip3 install undetected-chromedriver
 ## preconditon
 1. 테스트에 사용할 계정은 구글 메일로 가입이 되어 있어야 함
 2. face wallet pin 설정이 미리 되어 있어야 함
+3. 테스트 계정이 coin transaction에 필요한 baobob klay를 가지고 있어야 함 
 
 ## 유의 사항
 - youtube에 연동되어 있는 계정 사용시 구글 2차 인증을 개인 디바이스에서 직접해야 함, 테스트 계정을 만들어서 실행할 것을 권유
